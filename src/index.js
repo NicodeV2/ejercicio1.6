@@ -53,6 +53,7 @@ const App = () => {
         bad={bad}
         setBad={setBad}
       />
+      {/*it's already a component */}
       <Statistics good={good} neutral={neutral} bad={bad} />
     </>
   );
